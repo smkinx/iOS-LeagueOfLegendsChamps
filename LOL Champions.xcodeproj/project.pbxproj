@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98661BE01A2BFEC9003D4556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98661BDF1A2BFEC9003D4556 /* AppDelegate.swift */; };
+		98661BE71A2BFEC9003D4556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98661BE61A2BFEC9003D4556 /* Images.xcassets */; };
+		98661BEA1A2BFEC9003D4556 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98661BE81A2BFEC9003D4556 /* LaunchScreen.xib */; };
+		98661BF61A2BFEC9003D4556 /* lol_champions_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98661BF51A2BFEC9003D4556 /* lol_champions_1Tests.swift */; };
+		98661C001A2BFFA1003D4556 /* ChampionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98661BFF1A2BFFA1003D4556 /* ChampionsTableViewController.swift */; };
+		98661C021A2C0783003D4556 /* ChampionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98661C011A2C0783003D4556 /* ChampionTableViewCell.swift */; };
+		98754CDA1A3B8A980048110D /* MoreInfoWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754CD91A3B8A980048110D /* MoreInfoWebViewController.swift */; };
+		987A043C1A3B8E7800E625B5 /* CounterWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A043B1A3B8E7800E625B5 /* CounterWebViewController.swift */; };
+		987A043E1A3B8E9C00E625B5 /* GuidesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A043D1A3B8E9C00E625B5 /* GuidesWebViewController.swift */; };
+		987A04401A3BA30F00E625B5 /* NavigationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A043F1A3BA30F00E625B5 /* NavigationTableViewController.swift */; };
+		988E52621A2E5FBA00264C0A /* ChampionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988E52611A2E5FBA00264C0A /* ChampionInfoViewController.swift */; };
+		98A3CFB61A3E79D70072C572 /* FavGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3CFB51A3E79D70072C572 /* FavGuidesViewController.swift */; };
+		98A3CFB81A3E79E30072C572 /* FavCountersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3CFB71A3E79E30072C572 /* FavCountersViewController.swift */; };
+		98A3CFBA1A3E79F10072C572 /* FavInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3CFB91A3E79F10072C572 /* FavInfoViewController.swift */; };
+		98A3CFBD1A3E7E2D0072C572 /* FavChampionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3CFBC1A3E7E2D0072C572 /* FavChampionViewController.swift */; };
+		98A871F51A3BCC9D0050010E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A871F41A3BCC9D0050010E /* Main.storyboard */; };
+		98A871F71A3BF0B70050010E /* TrailerWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A871F61A3BF0B70050010E /* TrailerWebViewController.swift */; };
+		98DE9B841A30FEA800318139 /* FavoriteChampions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98DE9B831A30FEA800318139 /* FavoriteChampions.plist */; };
+		98DE9B881A31051900318139 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE9B871A31051900318139 /* SWRevealViewController.m */; };
+		98DE9B8A1A310CBC00318139 /* FavoriteChampionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE9B891A310CBC00318139 /* FavoriteChampionsTableViewController.swift */; };
+		98F9EF071A3E547B002E0553 /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F9EF061A3E547B002E0553 /* NavBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98661BF01A2BFEC9003D4556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98661BD21A2BFEC9003D4556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98661BD91A2BFEC9003D4556;
+			remoteInfo = "lol champions 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98661BDA1A2BFEC9003D4556 /* lol champions 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lol champions 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98661BDE1A2BFEC9003D4556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98661BDF1A2BFEC9003D4556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98661BE61A2BFEC9003D4556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98661BE91A2BFEC9003D4556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98661BEF1A2BFEC9003D4556 /* lol champions 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lol champions 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98661BF41A2BFEC9003D4556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98661BF51A2BFEC9003D4556 /* lol_champions_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_champions_1Tests.swift; sourceTree = "<group>"; };
+		98661BFF1A2BFFA1003D4556 /* ChampionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsTableViewController.swift; sourceTree = "<group>"; };
+		98661C011A2C0783003D4556 /* ChampionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionTableViewCell.swift; sourceTree = "<group>"; };
+		98754CD91A3B8A980048110D /* MoreInfoWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoWebViewController.swift; sourceTree = "<group>"; };
+		987A043B1A3B8E7800E625B5 /* CounterWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterWebViewController.swift; sourceTree = "<group>"; };
+		987A043D1A3B8E9C00E625B5 /* GuidesWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidesWebViewController.swift; sourceTree = "<group>"; };
+		987A043F1A3BA30F00E625B5 /* NavigationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTableViewController.swift; sourceTree = "<group>"; };
+		988E52611A2E5FBA00264C0A /* ChampionInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionInfoViewController.swift; sourceTree = "<group>"; };
+		98A3CFB51A3E79D70072C572 /* FavGuidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavGuidesViewController.swift; sourceTree = "<group>"; };
+		98A3CFB71A3E79E30072C572 /* FavCountersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavCountersViewController.swift; sourceTree = "<group>"; };
+		98A3CFB91A3E79F10072C572 /* FavInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavInfoViewController.swift; sourceTree = "<group>"; };
+		98A3CFBC1A3E7E2D0072C572 /* FavChampionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavChampionViewController.swift; sourceTree = "<group>"; };
+		98A871F41A3BCC9D0050010E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		98A871F61A3BF0B70050010E /* TrailerWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerWebViewController.swift; sourceTree = "<group>"; };
+		98DE9B831A30FEA800318139 /* FavoriteChampions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FavoriteChampions.plist; sourceTree = "<group>"; };
+		98DE9B851A31051900318139 /* lol champions 1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lol champions 1-Bridging-Header.h"; sourceTree = "<group>"; };
+		98DE9B861A31051900318139 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		98DE9B871A31051900318139 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		98DE9B891A310CBC00318139 /* FavoriteChampionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteChampionsTableViewController.swift; sourceTree = "<group>"; };
+		98F9EF061A3E547B002E0553 /* NavBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98661BD71A2BFEC9003D4556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98661BEC1A2BFEC9003D4556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98661BD11A2BFEC9003D4556 = {
+			isa = PBXGroup;
+			children = (
+				98661BDC1A2BFEC9003D4556 /* lol champions 1 */,
+				98661BF21A2BFEC9003D4556 /* lol champions 1Tests */,
+				98661BDB1A2BFEC9003D4556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98661BDB1A2BFEC9003D4556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98661BDA1A2BFEC9003D4556 /* lol champions 1.app */,
+				98661BEF1A2BFEC9003D4556 /* lol champions 1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98661BDC1A2BFEC9003D4556 /* lol champions 1 */ = {
+			isa = PBXGroup;
+			children = (
+				98DE9B831A30FEA800318139 /* FavoriteChampions.plist */,
+				98661BDF1A2BFEC9003D4556 /* AppDelegate.swift */,
+				98F9EF061A3E547B002E0553 /* NavBarViewController.swift */,
+				98661C011A2C0783003D4556 /* ChampionTableViewCell.swift */,
+				98A3CFBE1A3E81600072C572 /* All Champions */,
+				98A3CFBB1A3E79FA0072C572 /* Favorite Champions */,
+				98A3CFBF1A3E81920072C572 /* Trailer */,
+				98A3CFC01A3E81D20072C572 /* Slide Navigation */,
+				98A871F41A3BCC9D0050010E /* Main.storyboard */,
+				98661BE61A2BFEC9003D4556 /* Images.xcassets */,
+				98661BE81A2BFEC9003D4556 /* LaunchScreen.xib */,
+				98661BDD1A2BFEC9003D4556 /* Supporting Files */,
+				98DE9B851A31051900318139 /* lol champions 1-Bridging-Header.h */,
+			);
+			path = "lol champions 1";
+			sourceTree = "<group>";
+		};
+		98661BDD1A2BFEC9003D4556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98661BDE1A2BFEC9003D4556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98661BF21A2BFEC9003D4556 /* lol champions 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98661BF51A2BFEC9003D4556 /* lol_champions_1Tests.swift */,
+				98661BF31A2BFEC9003D4556 /* Supporting Files */,
+			);
+			path = "lol champions 1Tests";
+			sourceTree = "<group>";
+		};
+		98661BF31A2BFEC9003D4556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98661BF41A2BFEC9003D4556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98A3CFBB1A3E79FA0072C572 /* Favorite Champions */ = {
+			isa = PBXGroup;
+			children = (
+				98DE9B891A310CBC00318139 /* FavoriteChampionsTableViewController.swift */,
+				98A3CFBC1A3E7E2D0072C572 /* FavChampionViewController.swift */,
+				98A3CFB71A3E79E30072C572 /* FavCountersViewController.swift */,
+				98A3CFB51A3E79D70072C572 /* FavGuidesViewController.swift */,
+				98A3CFB91A3E79F10072C572 /* FavInfoViewController.swift */,
+			);
+			name = "Favorite Champions";
+			sourceTree = "<group>";
+		};
+		98A3CFBE1A3E81600072C572 /* All Champions */ = {
+			isa = PBXGroup;
+			children = (
+				98661BFF1A2BFFA1003D4556 /* ChampionsTableViewController.swift */,
+				988E52611A2E5FBA00264C0A /* ChampionInfoViewController.swift */,
+				98754CD91A3B8A980048110D /* MoreInfoWebViewController.swift */,
+				987A043D1A3B8E9C00E625B5 /* GuidesWebViewController.swift */,
+				987A043B1A3B8E7800E625B5 /* CounterWebViewController.swift */,
+			);
+			name = "All Champions";
+			sourceTree = "<group>";
+		};
+		98A3CFBF1A3E81920072C572 /* Trailer */ = {
+			isa = PBXGroup;
+			children = (
+				98A871F61A3BF0B70050010E /* TrailerWebViewController.swift */,
+			);
+			name = Trailer;
+			sourceTree = "<group>";
+		};
+		98A3CFC01A3E81D20072C572 /* Slide Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				987A043F1A3BA30F00E625B5 /* NavigationTableViewController.swift */,
+				98DE9B861A31051900318139 /* SWRevealViewController.h */,
+				98DE9B871A31051900318139 /* SWRevealViewController.m */,
+			);
+			name = "Slide Navigation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98661BD91A2BFEC9003D4556 /* lol champions 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98661BF91A2BFEC9003D4556 /* Build configuration list for PBXNativeTarget "lol champions 1" */;
+			buildPhases = (
+				98661BD61A2BFEC9003D4556 /* Sources */,
+				98661BD71A2BFEC9003D4556 /* Frameworks */,
+				98661BD81A2BFEC9003D4556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lol champions 1";
+			productName = "lol champions 1";
+			productReference = 98661BDA1A2BFEC9003D4556 /* lol champions 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98661BEE1A2BFEC9003D4556 /* lol champions 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98661BFC1A2BFEC9003D4556 /* Build configuration list for PBXNativeTarget "lol champions 1Tests" */;
+			buildPhases = (
+				98661BEB1A2BFEC9003D4556 /* Sources */,
+				98661BEC1A2BFEC9003D4556 /* Frameworks */,
+				98661BED1A2BFEC9003D4556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98661BF11A2BFEC9003D4556 /* PBXTargetDependency */,
+			);
+			name = "lol champions 1Tests";
+			productName = "lol champions 1Tests";
+			productReference = 98661BEF1A2BFEC9003D4556 /* lol champions 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98661BD21A2BFEC9003D4556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Supratim Baruah";
+				TargetAttributes = {
+					98661BD91A2BFEC9003D4556 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					98661BEE1A2BFEC9003D4556 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 98661BD91A2BFEC9003D4556;
+					};
+				};
+			};
+			buildConfigurationList = 98661BD51A2BFEC9003D4556 /* Build configuration list for PBXProject "LOL Champions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98661BD11A2BFEC9003D4556;
+			productRefGroup = 98661BDB1A2BFEC9003D4556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98661BD91A2BFEC9003D4556 /* lol champions 1 */,
+				98661BEE1A2BFEC9003D4556 /* lol champions 1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98661BD81A2BFEC9003D4556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98661BEA1A2BFEC9003D4556 /* LaunchScreen.xib in Resources */,
+				98661BE71A2BFEC9003D4556 /* Images.xcassets in Resources */,
+				98DE9B841A30FEA800318139 /* FavoriteChampions.plist in Resources */,
+				98A871F51A3BCC9D0050010E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98661BED1A2BFEC9003D4556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98661BD61A2BFEC9003D4556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F9EF071A3E547B002E0553 /* NavBarViewController.swift in Sources */,
+				98661C001A2BFFA1003D4556 /* ChampionsTableViewController.swift in Sources */,
+				987A04401A3BA30F00E625B5 /* NavigationTableViewController.swift in Sources */,
+				98661BE01A2BFEC9003D4556 /* AppDelegate.swift in Sources */,
+				988E52621A2E5FBA00264C0A /* ChampionInfoViewController.swift in Sources */,
+				987A043C1A3B8E7800E625B5 /* CounterWebViewController.swift in Sources */,
+				98A871F71A3BF0B70050010E /* TrailerWebViewController.swift in Sources */,
+				987A043E1A3B8E9C00E625B5 /* GuidesWebViewController.swift in Sources */,
+				98A3CFB81A3E79E30072C572 /* FavCountersViewController.swift in Sources */,
+				98661C021A2C0783003D4556 /* ChampionTableViewCell.swift in Sources */,
+				98DE9B881A31051900318139 /* SWRevealViewController.m in Sources */,
+				98754CDA1A3B8A980048110D /* MoreInfoWebViewController.swift in Sources */,
+				98DE9B8A1A310CBC00318139 /* FavoriteChampionsTableViewController.swift in Sources */,
+				98A3CFBA1A3E79F10072C572 /* FavInfoViewController.swift in Sources */,
+				98A3CFB61A3E79D70072C572 /* FavGuidesViewController.swift in Sources */,
+				98A3CFBD1A3E7E2D0072C572 /* FavChampionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98661BEB1A2BFEC9003D4556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98661BF61A2BFEC9003D4556 /* lol_champions_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98661BF11A2BFEC9003D4556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98661BD91A2BFEC9003D4556 /* lol champions 1 */;
+			targetProxy = 98661BF01A2BFEC9003D4556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98661BE81A2BFEC9003D4556 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98661BE91A2BFEC9003D4556 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98661BF71A2BFEC9003D4556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98661BF81A2BFEC9003D4556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98661BFA1A2BFEC9003D4556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "lol champions 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "lol champions 1";
+				SWIFT_OBJC_BRIDGING_HEADER = "lol champions 1/lol champions 1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98661BFB1A2BFEC9003D4556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "lol champions 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "lol champions 1";
+				SWIFT_OBJC_BRIDGING_HEADER = "lol champions 1/lol champions 1-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		98661BFD1A2BFEC9003D4556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lol champions 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lol champions 1.app/lol champions 1";
+			};
+			name = Debug;
+		};
+		98661BFE1A2BFEC9003D4556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lol champions 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lol champions 1.app/lol champions 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98661BD51A2BFEC9003D4556 /* Build configuration list for PBXProject "LOL Champions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98661BF71A2BFEC9003D4556 /* Debug */,
+				98661BF81A2BFEC9003D4556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98661BF91A2BFEC9003D4556 /* Build configuration list for PBXNativeTarget "lol champions 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98661BFA1A2BFEC9003D4556 /* Debug */,
+				98661BFB1A2BFEC9003D4556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98661BFC1A2BFEC9003D4556 /* Build configuration list for PBXNativeTarget "lol champions 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98661BFD1A2BFEC9003D4556 /* Debug */,
+				98661BFE1A2BFEC9003D4556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98661BD21A2BFEC9003D4556 /* Project object */;
+}
